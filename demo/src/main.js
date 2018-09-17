@@ -1,8 +1,10 @@
 import Vue from 'vue'
+import 'babel-polyfill'
+import Test from './Test.vue'
 
 
 new Vue({
   el: '#app',
-  render: h => h('div','Hello world'),
+  ...Test,
 
 })
