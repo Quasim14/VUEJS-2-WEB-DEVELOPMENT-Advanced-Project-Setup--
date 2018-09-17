@@ -1,13 +1,7 @@
-<template>
-  <div>
-    <h1 class="title">Movies list</h1>
-
-    <ul>
-      <li v-for="movie in movies" class="movie">
-        {{ movie.title}}
-      </li>
-    </ul>
-  </div>
+<template lang="pug">
+    ul.movies
+      li.movie Star Wars 2
+      li.movie Blade Runner 2
 </template>
 
 <script>
@@ -25,11 +19,7 @@
 </script>
 
 <style scoped>
-  .title { color: cadetblue;
-  }
-  p{
-    color : dimgray;
-  }
+
 
   .movie:not(:last-child) {
     padding-bottom: 6px;
