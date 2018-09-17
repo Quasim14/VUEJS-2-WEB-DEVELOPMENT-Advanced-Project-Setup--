@@ -1,6 +1,8 @@
 <template>
   <div>
-    <h1 class="title">Movies list</h1>
+    <article class="article">
+      <h3 class="title">Movies list</h3>
+    </article>
 
     <ul>
       <li v-for="movie in movies" class="movie">
@@ -24,17 +26,9 @@
     }
 </script>
 
-<style scoped>
-  .title { color: cadetblue;
-  }
-  p{
-    color : dimgray;
-  }
-
-  .movie:not(:last-child) {
-    padding-bottom: 6px;
-    margin-bottom: 6px;
-    border-bottom: solid 1px rgba(0, 0, 0, .1);
-  }
+<style lang="sass" scoped >
+  .article
+    .title
+      border-bottom: solid 3px rgba(red, .2)
 
 </style>
