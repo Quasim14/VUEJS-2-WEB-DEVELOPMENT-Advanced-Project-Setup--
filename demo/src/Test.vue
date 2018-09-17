@@ -26,9 +26,11 @@
     }
 </script>
 
-<style lang="sass" scoped >
+<style lang="less" scoped >
   .article
-    .title
+    .title{
       border-bottom: solid 3px rgba(red, .2)
+    }
+
 
 </style>
