@@ -26,11 +26,10 @@
     }
 </script>
 
-<style lang="less" scoped >
+<style lang="stylus" scoped >
   .article
-    .title{
+    .title
       border-bottom: solid 3px rgba(red, .2)
-    }
 
 
 </style>
